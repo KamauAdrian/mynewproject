@@ -54,7 +54,7 @@ if (!isset($_SESSION['user']) && !isset($_SESSION['password'])){
 //        $posts=$count;
 
     while($row=mysqli_fetch_assoc($result)){
-       $posts = $posts."Title: ".$row['title']." Post: ".$row['post']."<br />";
+       $posts = $posts."<div class='one'> Title: ".$row['title']." Post: ".$row['post']."</div>";
     }
 
 
@@ -73,9 +73,9 @@ if (isset($_POST['post'])){
         <input class="btn btn-success btn-new new" type="submit" name="post" value="New Post">
     </form>
 </div>
-<div class='divone'>
+<!--<div class='divone'>-->
 <?php echo $posts;?>
-</div>
+<!--</div>-->
 
 
 <div class="div1">

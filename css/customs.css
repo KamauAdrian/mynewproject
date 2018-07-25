@@ -65,6 +65,11 @@ font-size: 12px;
     border: 1px solid #DFDFDF;
 }
 .divone{
-    border: 2px solid black;
-    background-color: red;
+    background-color: grey;
 }
+.one{
+    background-color: grey;
+    border: 2px solid;
+    padding: 10px auto;
+    margin: 15px auto;
+ }
